@@ -1,0 +1,30 @@
+{
+    "name": "components/pavlov",
+    "description": "Behavioral API over QUnit.",
+    "type": "component",
+    "keywords": [
+        "qunit",
+        "javascript",
+        "bdd"
+    ],
+    "homepage": "https://github.com/mmonteleone/pavlov",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Montelone"
+        }
+    ],
+    "require": {
+        "components/qunit": "*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "pavlov.js"
+            ],
+            "shim": {
+                "exports": "window.pavlov"
+            }
+        }
+    }
+}
