@@ -11,7 +11,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Montelone"
+            "name": "Michael Montelone",
+            "homepage": "http://michaelmonteleone.net"
         }
     ],
     "require": {
@@ -23,7 +24,8 @@
                 "pavlov.js"
             ],
             "shim": {
-                "exports": "window.pavlov"
+                "exports": "window.pavlov",
+                "deps": ["qunit"]
             }
         }
     }
